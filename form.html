@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<title> Sign Up</title>
+</head>
+<body>
+<div class="container">
+
+<div class="row">
+
+<div class="logo col-md-3">
+ 
+<img src="images/logo.jpg" height="120px" width="295px">
+						
+</div>
+
+<div class="navigation col-md-6">
+						
+
+	<ul>
+	 					<li  class="home"> <a href='index.html' class='active'> Home </a> </li>  
+					    <li> <a href='portrait.html' class='active'> Portrait </a> </li>
+						<li> <a href='landscape.html' class='active'>  Landscape </a> </li>
+					    <li> <a href='lifestyle.html' class='active'> Lifestyle </a> </li>
+						<li> <a href='fashion.html' class='active'> Fashion </a> </li>
+						<li> <a href='product.html' class='active'> Product </a> </li>
+						<li> <a href='form.html' class='active' target="_blank"> SignUp </a> </li>
+						<li> <a href='form1.html' class='active' target="_blank"> Login </a> </li> 
+
+	</ul>
+</div>
+
+
+
+
+<div class="topright col-md-3"> 
+
+
+						<div class="search"> <input type="search" name="search"  placeholder="Search">
+
+						<input type="button" name="go" value="Go"> </div> </div>
+</div>
+
+<div class="row">
+<div class="ad col-md-3" align="center">
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+					<font color="Orange" size="6"> <b> <u> News and Ads </u> </b> </font>
+
+<a href="http://store.apple.com/us"> <img src="images/ad12.jpg" width="100px" border="1px"> </a>
+	<font color="white"> <p> <u> Click the image for more details. </u> </p> </font>
+
+
+ </div>
+
+
+
+
+<div class="mainbody col-md-6"> 
+
+
+<div class="signup">
+
+<form name="register" method="post" action="">
+
+ <font color="white"> 
+
+<p> <h1 align="center"> <font color="green"> SignUp </font> </h1> </p> 
+
+<br/> 
+<br/>
+
+
+
+<div class="abc">
+<p>
+<label> Name: </label>
+	<input type="text" name="fullname" placeholder="Enter Your Full Name">
+	</p>
+	<p>
+	<label> Password: </label>
+	<input type="password" name="pass" placeholder="Enter Password">
+	</p>
+	<p>
+	<label> Re-enter password: </label>
+	<input type="password" name="repass" placeholder="Re-confirm Password">
+	</p>
+	
+	<p>
+<label> Email: </label>
+<input type="email" name="email" placeholder="Enter your email here"> 
+	</p>
+
+</div>
+
+
+	<p>
+	<label>Select Gender: </label> 
+	<font color="white" size="3px"> 
+	<div class="gen">  
+	Male  <input type="radio" name="gender" value="Male">
+	Female  <input type="radio" name="gender" value="Female"> </font>  </div>
+	</p>
+
+	
+
+<div class="abcd">
+	<p>
+	<label> Country: </label> 
+	<input type="text" name="country" placeholder="eg: Nepal">
+	</p>
+
+	
+	<p>
+<label> Date Of Birth: </label> 
+<input type="date" name="dateofbirth">
+</p>
+
+
+	<div align="center" class="sr"> <p>  
+<span> <input type="submit" name="submit" value="Submit" onclick="validate()"> </span> </br> <br/>
+<span> <input type="reset"> </span> </p> </div> </div> 
+</font> </form> 
+
+</div>	
+
+</div>
+
+
+
+
+<div class="ads col-md-3" align="center"> 
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+					<font color="Orange" size="6"> <b> <u> News and Ads </u> </b> </font>
+
+<a href="http://www.hp.com/country/us/en/uc/welcome.html"> <img src="images/ad13.jpg" width="100px" border="1px"> </a>
+	<font color="white"> <p> <u> Click the image for more details. </u> </p> </font>
+
+
+</div>	
+
+</div>
+
+
+
+<div class="row">
+<div class=" footer col-md-12"> 
+								
+								<font color="white"> Copyright &copy; 2015 | Design by Saurav Pradhananga </font>  
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="mrgn"> </div>
+
+
+<script>
+
+function validate()
+{
+	var Fullname=document.register.fullname.value;
+	var password=document.register.pass.value;
+	var confirmpass=document.register.repass.value;
+	var Email=document.register.email.value;
+	var Gender=document.register.gender.value;
+	var Country=document.register.country.value;
+	
+
+if(Fullname=="")
+    	{
+    		alert("Name required. Please do not leave empty.");
+    	}
+
+
+else  if(password=="")
+		{
+			alert("You must enter your password. Please do not leave empty.");
+		}
+
+
+else if(confirmpassword=="")
+		{
+			alert("You must re-enter your password to confirm. Please do not leave empty.");
+		}
+
+
+else if(Email=="")
+    	{
+    		alert("Email id is required. Please do not leave empty.");
+	  	}
+
+	
+
+   	else if(Gender=="")
+   		{
+	    	alert("Gender must be selected. Please do not leave empty.");
+    	}
+
+else if(country=="")
+		{
+			alert("Country field must be filled. You cannot leave empty.");
+		}	
+
+
+}
+
+
+</script>
+
+</body>
+</html>

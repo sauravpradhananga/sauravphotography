@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<title> Login </title>
+</head>
+<body>
+<div class="container">
+
+<div class="row">
+
+<div class="logo col-md-3">
+ 
+<img src="images/logo.jpg" height="120px" width="295px">
+						
+</div>
+
+<div class="navigation col-md-6">
+						
+
+	<ul>
+	 					<li  class="home"> <a href='index.html' class='active'> Home </a> </li>  
+					    <li> <a href='portrait.html' class='active'> Portrait </a> </li>
+						<li> <a href='landscape.html' class='active'>  Landscape </a> </li>
+					    <li> <a href='lifestyle.html' class='active'> Lifestyle </a> </li>
+						<li> <a href='fashion.html' class='active'> Fashion </a> </li>
+						<li> <a href='product.html' class='active'> Product </a> </li>
+						<li> <a href='form.html' class='active' target="_blank"> SignUp </a> </li>
+						<li> <a href='form1.html' class='active' target="_blank"> Login </a> </li> 
+
+	</ul>
+</div>
+
+
+
+
+<div class="topright col-md-3"> 
+
+
+						<div class="search"> <input type="search" name="search"  placeholder="Search">
+
+						<input type="button" name="go" value="Go"> </div> </div>
+</div>
+
+<div class="row">
+<div class="ad col-md-3" align="center"> 
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+			<font color="Orange" size="6"> <b> <u> News and Ads </u> </b> </font> </br> </br>
+			<font color="white"> <p> Game of Thrones </p> </font>
+<a href="http://www.hbo.com/game-of-thrones"> <img src="images/ad14.jpg" width="100px" height="100px" border="1px"></a>	</br> </br> 
+					<font color="white"><p> <u> Click the image for more details. </u> </p> </font>
+
+
+
+
+</div>
+
+
+
+
+<div class="mainbody col-md-6"> 
+
+
+<form name="login" method="post" action="">  <br/> <br/> <br/> <br/> <br/> <br/>		
+
+
+
+
+<h1 align="center"> <font color="green"> Please Login </font> </h1> <br/> <br/>	
+
+<div align="center">
+
+
+<p> 
+<font color="white">
+<label> Email: </label> <input type="text" name="email" placeholder="Enter your email ">  </p> 
+
+
+<p>
+<label> Password: </label> <input type="password" name="pass" placeholder="Password"> </p>
+<input type="submit" name="login" value="Login"  onclick="validate()">
+
+</font> </div>
+</form>
+
+
+
+</div>
+
+
+
+
+<div class="ads col-md-3" align="center"> 
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<font color="Orange" size="6"> <b> <u> News and Ads </u> </b> </font>
+<a href="http://www.global.adidas.com/"> <img src="images/ad16.jpg" width="100px" border="1px"></a>	
+					<font color="white"><p> <u> Click the image for more details. </u> </p> </font>
+
+
+
+
+</div>	
+
+</div>
+
+
+
+<div class="row">
+<div class=" footer col-md-12"> 
+								
+								<font color="white"> Copyright &copy; 2015 | Design by Saurav Pradhananga </font>  
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="mrgn"> </div>
+
+
+
+<script>
+
+function validate()
+{
+
+var Email=document.login.email.value;
+var password=document.login.pass.value;
+
+
+if(Email=="")
+	{
+		alert("Email id is required. Please do not leave empty."); 
+	}
+
+else if(password=="")
+	{
+		alert("You must enter your password. Please do not leave empty.");
+	}
+else
+	{
+		alert("Login successful");
+	}
+
+
+}
+
+</script> 
+
+
+</body>
+</html>

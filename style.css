@@ -1,0 +1,61 @@
+body {background-color: #cbcbcb; padding: 0; margin: 0; font-family: cursive;} 
+ul li {float: left; list-style: none; margin: 50px 0px 0px 20px;}
+ul { margin: 0; padding:0;}
+a { color: red; }
+
+
+
+.logo{ padding: 0;}
+
+.home{ float: left; margin-left: 0; }
+
+.navigation {background: black;  height: 120px; line-height: 15px; }
+
+
+.topright {
+  
+ background: black;  height: 120px;;  
+}
+
+
+.search{ margin: 40px 0px 0px 17px; }
+
+.ad { background: #0eff36; height: 550px; }
+
+.mainbody { background: #ff5310; height: 550px;}
+
+.ads { background: #0eff36; height: 550px; }
+
+.footer{ margin:0 auto; text-align: center; background: black; height: 80px; line-height: 80px;}
+
+
+.mrgn{ margin: 50px;}
+
+
+
+
+input, option { color: black;}
+
+
+
+.signup  { position: absolute; 
+   top: 40px; 
+   left: 0; 
+   width: 100%; }
+
+
+
+.abc , .abcd input { margin-left: 200px;}
+
+
+label {position: absolute; left: 3%;}
+
+
+
+
+
+span { margin-right: 38%;}
+
+.gen{ clear: both; display: inline-block; margin-left: 200px; } 
+
+
